@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">ReceptionProbe</string>
+    <string name="hello_world">Hello Amit!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">ReceptionProbe</string>
+    <string name="Button1">Start </string>
+    <string name="Button2">Stop </string>
+    <string name="desc">Dummy</string>
+
+</resources>

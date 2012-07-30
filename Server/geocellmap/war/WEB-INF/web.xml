@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<welcome-file-list>
+    	<welcome-file>main.jsp</welcome-file>
+	</welcome-file-list>	
+	<!-- snippets in web.xml -->
+	.
+	.
+	<servlet>
+    	<servlet-name>NewDataPointServlet</servlet-name>
+    	<servlet-class>com.geocellmap.NewDataPointServlet</servlet-class>
+	</servlet>
+	.
+	.
+	<servlet-mapping>
+    	<servlet-name>NewDataPointServlet</servlet-name>
+    	<url-pattern>/new</url-pattern>
+	</servlet-mapping>
+	.
+	.
+	<servlet>
+    	<servlet-name>CleanUpDataServlet</servlet-name>
+    	<servlet-class>com.geocellmap.CleanUpDataServlet</servlet-class>
+	</servlet>
+	.
+	.
+	<servlet-mapping>
+    	<servlet-name>CleanUpDataServlet</servlet-name>
+    	<url-pattern>/clean</url-pattern>
+	</servlet-mapping>	
+	.
+	.
+	<servlet>
+    	<servlet-name>ListDataServlet</servlet-name>
+    	<servlet-class>com.geocellmap.ListDataServlet</servlet-class>
+	</servlet>
+	.
+	.
+	<servlet-mapping>
+    	<servlet-name>ListDataServlet</servlet-name>
+    	<url-pattern>/list</url-pattern>
+	</servlet-mapping>
+	.
+	.
+</web-app>
